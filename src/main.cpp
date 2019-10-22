@@ -72,8 +72,8 @@ String SendHTML(float TempCstat, float Humiditystat){
   ptr +="<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
   ptr +="<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600\" rel=\"stylesheet\">\n";
   ptr +="<title>ESP8266 Weather Report</title>\n";
-  ptr +="<style>html { font-family: 'Open Sans', sans-serif; display: block; margin: 0px auto; text-align: center;color: #333333;}\n";
-  ptr +="body{margin-top: 50px;}\n";
+  ptr +="<style>html { font-family: 'Open Sans', sans-serif; display: block; margin: 0px auto; text-align: center; color: #cccccc;}\n";
+  ptr +="body{margin-top: 50px; background: #262626;}\n";
   ptr +="h1 {margin: 50px auto 30px;}\n";
   ptr +=".side-by-side{display: inline-block;vertical-align: middle;position: relative;}\n";
   ptr +=".temperature-icon{background-color: #f39c12;width: 30px;height: 30px;border-radius: 50%;line-height: 40px;}\n";
